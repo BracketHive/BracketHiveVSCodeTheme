@@ -2,7 +2,7 @@
   "name": "brackethive-theme",
   "displayName": "BracketHive Theme",
   "description": "BracketHive colour theme",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "BracketHive",
   "engines": {
     "vscode": "^1.88.0"
