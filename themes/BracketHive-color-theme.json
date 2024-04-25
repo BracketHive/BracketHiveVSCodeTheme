@@ -21,6 +21,42 @@
         "foreground": "#d6d2ff"
       }
     },
+
+    // Custom //
+    {
+      "name": "Vue HTML",
+      "scope": "entity.name.tag.template.html.vue,source.vue",
+      "settings": {
+        "foreground": "#d6d2ff"
+      }
+    },
+
+    {
+      "name": "HTML attributes",
+      "scope": "entity.other.attribute-name.html,source.vue",
+      // < > meta.template-tag.end,meta.template-tag.start,meta.tag.structure.div.start.html,text.html.derivative,meta.attribute.class.html
+      "settings": {
+        "foreground": "#d498fb"
+      }
+    },
+
+    {
+      "name": "js other vars",
+      "scope": "variable.other.object.ts,meta.block.ts,meta.arrow.ts,meta.var.expr.ts,source.ts,source.vue",
+      "settings": {
+        "foreground": "#eeeeee",
+      }
+    },
+
+    {
+      "name": "Arrows",
+      "scope": "punctuation.separator.comma.ts,meta.objectliteral.ts,meta.block.ts,meta.arrow.ts,meta.var.expr.ts,source.ts,source.vue",
+      "settings": {
+        "foreground": "#ffffff",
+      }
+    },
+    // End Custom //
+
     {
       "name": "haskell variable generic-type",
       "scope": "variable.other.generic-type.haskell",
