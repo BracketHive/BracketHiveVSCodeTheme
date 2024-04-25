@@ -1,0 +1,29 @@
+{
+  "name": "brackethive-theme",
+  "displayName": "BracketHive Theme",
+  "description": "BracketHive colour theme",
+  "version": "0.0.1",
+  "publisher": "BracketHive",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "keywords": [
+    "vscode",
+    "theme",
+    "dark",
+    "purple",
+    "brackethive"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "BracketHive",
+        "uiTheme": "vs-dark",
+        "path": "./themes/BracketHive-color-theme.json"
+      }
+    ]
+  }
+}
